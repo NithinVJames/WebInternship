@@ -1,0 +1,24 @@
+.formContents {
+    width: 400px;
+}
+
+.fcnt {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: peru;
+};
+
+@media screen and (max-width: 860px) {
+    .fcnt {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formContents {
+        width: 300px;
+    }
+
+}
