@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: peru;
+    background-color: rgb(35, 224, 11);
 };
 
 @media screen and (max-width: 860px) {
